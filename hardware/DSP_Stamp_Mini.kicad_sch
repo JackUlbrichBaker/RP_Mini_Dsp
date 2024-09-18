@@ -10569,7 +10569,7 @@
 		(uuid "207b2674-c207-4f2b-9dc2-d5fa43b07fdd")
 	)
 	(label "ADC_SCLK"
-		(at 218.44 321.31 0)
+		(at 180.34 325.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10855,7 +10855,7 @@
 		(uuid "42c9bb9f-cd94-4404-bca9-1d145352ca6b")
 	)
 	(label "DAC_BCLK"
-		(at 218.44 331.47 0)
+		(at 180.34 320.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10886,6 +10886,17 @@
 			(justify right bottom)
 		)
 		(uuid "47d57be2-0d41-4f86-bcf9-200acab9e5a5")
+	)
+	(label "SCL"
+		(at 189.23 307.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49ea1ede-5199-4a19-adcd-9a1794665a5c")
 	)
 	(label "GPIO11"
 		(at 316.23 86.36 180)
@@ -10964,8 +10975,8 @@
 		)
 		(uuid "5141d03d-d097-46be-837c-3ff293648428")
 	)
-	(label "SDA"
-		(at 180.34 320.04 0)
+	(label "ADC_DIN"
+		(at 180.34 332.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10973,7 +10984,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "514ddaff-534e-4df0-b7a2-8c04a3c6570e")
+		(uuid "51b0c4c7-83dc-4a3d-a3d6-d3d197253903")
+	)
+	(label "ADC_LRCLK"
+		(at 180.34 330.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52e6ce81-6565-4d03-b2d2-303aff24e66b")
 	)
 	(label "USB_DM"
 		(at 510.54 81.28 0)
@@ -11019,17 +11041,6 @@
 		)
 		(uuid "58ce60cb-931f-4cc0-bc6b-595d9afd0027")
 	)
-	(label "ADC_LRCLK"
-		(at 218.44 316.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "58e815d3-1f51-4749-811a-ecf2aa76ec73")
-	)
 	(label "GPIO40_ADC0"
 		(at 180.34 337.82 180)
 		(fields_autoplaced yes)
@@ -11040,6 +11051,17 @@
 			(justify right bottom)
 		)
 		(uuid "5924c073-6a25-4e01-9c18-a2521f69a279")
+	)
+	(label "GPIO35"
+		(at 180.34 322.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5bd7f19d-2f73-4434-8be1-523945c3fbd7")
 	)
 	(label "GPIO6"
 		(at 180.34 248.92 180)
@@ -11162,17 +11184,6 @@
 		)
 		(uuid "6cb4d59f-260a-4511-bfa3-c20b9a6bb907")
 	)
-	(label "SCL"
-		(at 180.34 322.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6da3ceb9-5599-4245-a833-eabba69dd289")
-	)
 	(label "Vout_L"
 		(at 389.89 72.39 0)
 		(fields_autoplaced yes)
@@ -11194,6 +11205,17 @@
 			(justify left bottom)
 		)
 		(uuid "715daff9-d0f1-432a-97d8-15c30ad22d06")
+	)
+	(label "SDA"
+		(at 189.23 304.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73131680-766f-4cab-8fad-232b9da10ffe")
 	)
 	(label "GPIO14"
 		(at 180.34 269.24 180)
@@ -11294,6 +11316,28 @@
 		)
 		(uuid "98fbd8f6-19d3-4aa4-bed3-f1b5a9105a26")
 	)
+	(label "GPIO34"
+		(at 180.34 320.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ac7e4c2-f5f0-4b6c-b685-7083ee1c2a30")
+	)
+	(label "Vin_R"
+		(at 389.89 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f9a39d9-84a2-42c6-9a51-3fe30154c4a0")
+	)
 	(label "GPIO14"
 		(at 316.23 93.98 180)
 		(fields_autoplaced yes)
@@ -11304,6 +11348,17 @@
 			(justify right bottom)
 		)
 		(uuid "a33d21da-6aa4-4fe9-bf31-774125ebae74")
+	)
+	(label "DAC_LRCLK"
+		(at 180.34 317.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4c3ad52-5530-435e-a3f2-129cd7a36084")
 	)
 	(label "GPIO8"
 		(at 180.34 254 180)
@@ -11348,17 +11403,6 @@
 			(justify left bottom)
 		)
 		(uuid "ac8649f1-a898-45fa-864b-b67817db7c83")
-	)
-	(label "ADC_DIN"
-		(at 218.44 360.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b08193b8-a4b3-442e-8ba2-aac75a45a796")
 	)
 	(label "XIN"
 		(at 82.55 269.24 0)
@@ -11558,17 +11602,6 @@
 		)
 		(uuid "c5d509f1-3d2b-46a5-af3e-135ff02bab6c")
 	)
-	(label "DAC_LRCLK"
-		(at 218.44 328.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c7d4f7f2-d023-43e6-8084-fd1ab10f58c1")
-	)
 	(label "GPIO12"
 		(at 316.23 88.9 180)
 		(fields_autoplaced yes)
@@ -11581,7 +11614,7 @@
 		(uuid "c993f960-3e52-4a84-aa8d-f55a1f233526")
 	)
 	(label "DAC_SCLK"
-		(at 218.44 334.01 0)
+		(at 180.34 322.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11646,7 +11679,7 @@
 		)
 		(uuid "ceb446eb-7e8d-40e1-8e81-bdfba4947636")
 	)
-	(label "Vin_R"
+	(label "Vin_L"
 		(at 389.89 69.85 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11655,7 +11688,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cfc72d25-15cd-4461-ad2c-d82f42512065")
+		(uuid "d410160f-a195-4f5b-8359-1579abb55c2d")
 	)
 	(label "VREG_AVDD"
 		(at 84.455 212.09 0)
@@ -11702,7 +11735,7 @@
 		(uuid "dcdb478e-34aa-4a18-b895-78f35e24fc19")
 	)
 	(label "ADC_BCLK"
-		(at 218.44 318.77 0)
+		(at 180.34 327.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11779,7 +11812,7 @@
 		(uuid "ead7144c-ec98-45ef-a910-13cd584eb6f5")
 	)
 	(label "DAC_DIN"
-		(at 218.44 326.39 0)
+		(at 180.34 314.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11788,17 +11821,6 @@
 			(justify left bottom)
 		)
 		(uuid "f08e4785-9f0d-49d1-98f6-ce15144515de")
-	)
-	(label "Vin_L"
-		(at 389.89 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f110f36b-5f5d-4caf-afdf-d10ce83fd199")
 	)
 	(label "GPIO44_ADC4"
 		(at 405.13 90.17 180)
